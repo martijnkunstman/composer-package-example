@@ -1,6 +1,8 @@
 {
     "name": "martijnkunstman/composer-package-example",
     "license": "MIT",
+    "description": "Composer package example.",
+    "keywords": ["testing", "example","template"],
     "autoload": {
         "psr-4": {
             "Martijnkunstman\\ComposerPackageExample\\": "src/"
