@@ -9,3 +9,10 @@ class ComposerPackageExample
         return $greet;
     }
 }
+
+if (!function_exists('composerpackageexample')) {
+    function composerpackageexample($greet = "Hello World")
+    {
+        return $greet;
+    }
+}
