@@ -1,0 +1,17 @@
+{
+    "name": "martijnkunstman/composer-package-example",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Martijnkunstman\\ComposerPackageExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martijn Kunstman",
+            "email": "martijn@kunstman.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
